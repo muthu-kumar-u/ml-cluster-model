@@ -1,4 +1,4 @@
-# Clustering Model Repository
+# Clustering Model
 
 ## Overview
 
@@ -17,8 +17,26 @@ To run the model, ensure you have the following dependencies installed:
 
 ## Setup Instructions
 
-1. **Clone the Repository:**
+1. **Fork the Repository:**
+
+   To use this repository, you first need to fork it into your own GitHub account. You can then clone it locally to make changes.
 
    ```bash
-   git clone https://github.com/your-username/clustering-model.git
-   cd clustering-model
+   git clone <repo>
+
+2. **Set Up the Environment:**
+   
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+2. **Install Dependencies:**
+   
+   ```bash
+   pip install -r requirements.txt
+
+
+## Important note:
+   * This repository comes with a pre-trained K-Means model with the dataset. If you want more accuracy, please re-train the model with a cleaner dataset and perform feature engineering on the model.
+
+
